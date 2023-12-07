@@ -4,7 +4,7 @@
 ---
 
 ## [Character]
-![PlayerIdle](https://github.com/hadongkyoun/Incarnation-Of-Vengeance/assets/72578757/ce3588bb-fc5a-4d30-b811-f1ea72f626bb)
+![PlayerIdle](https://github.com/hadongkyoun/Incarnation-Of-Vengeance/assets/72578757/0c2d911a-711f-4ff1-9679-52381d383010)
 
 시체였으나, 원인 모를 현상으로 분노로 가득 찬 채 눈을 뜬 전사
 현재 그가 살아 있지 않은 언데드임을 강조하기 위해 디자인을 이렇게 구현하였음.
