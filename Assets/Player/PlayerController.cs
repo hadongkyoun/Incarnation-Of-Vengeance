@@ -7,8 +7,7 @@ public class PlayerController : MonoBehaviour
 {
 
     public Rigidbody2D rb;
-    public Animator ClothesAnim;
-    public Animator WeaponAnim;
+    public Animator Anim;
     [SerializeField] float walkSpeed;
     private float xInput;
     private bool isMoving;
@@ -51,8 +50,7 @@ public class PlayerController : MonoBehaviour
         else
             isMoving = false;
 
-        ClothesAnim.SetBool("isMoving", isMoving);
-        WeaponAnim.SetInteger("weaponNumber", weapon);
+        Anim.SetBool("isMoving", isMoving);
     }
 
     private void Flip()
