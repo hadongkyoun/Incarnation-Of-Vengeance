@@ -549,7 +549,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 3.8
+  m_GravityScale: 4.5
   m_Material: {fileID: 6200000, guid: e93fa15a79b7d854ba26001ff0daa143, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
@@ -576,7 +576,10 @@ MonoBehaviour:
   rb: {fileID: 1470155522}
   Anim: {fileID: 223503479}
   runSpeed: 10
-  jumpForce: 22
+  jumpForce: 23
+  dashSpeed: 18
+  dashDuration: 0.3
+  dashTime: 0
   groundCheckDistance: 2.1
   whatIsGround:
     serializedVersion: 2

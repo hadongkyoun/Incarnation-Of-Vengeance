@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: afb45e402d7f2d2418b29a7f12ab04a2
+guid: 57166e0459c59b749b24915612ab57b5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,13 +136,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlayerMove_0
+      name: PlayerJump_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 90
-        width: 75
-        height: 90
+        y: 110
+        width: 65
+        height: 110
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ec38161e2fa8cd41a8b8fee20ab533b
-      internalID: -602482653
+      spriteID: 909f511004ab32b48ae575ba244c0cfd
+      internalID: -574084985
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMove_1
+      name: PlayerJump_1
       rect:
         serializedVersion: 2
-        x: 75
-        y: 90
-        width: 75
-        height: 90
+        x: 65
+        y: 110
+        width: 65
+        height: 110
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4e25b0a866baaa4693d686f4bfe036f
-      internalID: 593369360
+      spriteID: e2854201dad16304491ba752d4c4eb71
+      internalID: 1750397794
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMove_2
+      name: PlayerJump_2
       rect:
         serializedVersion: 2
-        x: 150
-        y: 90
-        width: 75
-        height: 90
+        x: 130
+        y: 110
+        width: 65
+        height: 110
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,20 +192,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5149e61f33add194b89df4e869d8a58c
-      internalID: -278009877
+      spriteID: 77cb03bf556890248aefcbaf299efe57
+      internalID: -1393351548
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMove_3
+      name: PlayerJump_3
       rect:
         serializedVersion: 2
-        x: 225
-        y: 90
-        width: 75
-        height: 90
+        x: 195
+        y: 110
+        width: 65
+        height: 110
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,20 +213,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bbd76baefa07d9419766bd087202ef9
-      internalID: 656895374
+      spriteID: f41d487f61b83444a84c174e6002f759
+      internalID: -83739815
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMove_4
+      name: PlayerJump_4
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 75
-        height: 90
+        width: 65
+        height: 110
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,20 +234,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 160d2067507c4924a9c54023b15c2ff4
-      internalID: 1033251505
+      spriteID: e9eef246fd8bd604186fe1154f7fdc8e
+      internalID: 2022151360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMove_5
+      name: PlayerJump_5
       rect:
         serializedVersion: 2
-        x: 75
+        x: 65
         y: 0
-        width: 75
-        height: 90
+        width: 65
+        height: 110
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,20 +255,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bbf6033f4da7fb448c10e13e454683c
-      internalID: -608874067
+      spriteID: e6ed9f413137ae344acad75fea40e9e4
+      internalID: -914068337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMove_6
+      name: PlayerJump_6
       rect:
         serializedVersion: 2
-        x: 150
+        x: 130
         y: 0
-        width: 75
-        height: 90
+        width: 65
+        height: 110
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,20 +276,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69e790757994b2f43a3f03e1cae3f996
-      internalID: -436118798
+      spriteID: 8d5b6353da9e778458246b8f6764344b
+      internalID: -192426190
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMove_7
+      name: PlayerJump_7
       rect:
         serializedVersion: 2
-        x: 225
+        x: 195
         y: 0
-        width: 75
-        height: 90
+        width: 65
+        height: 110
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -297,8 +297,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5cd1615d8c0da742bda1e3e89acfe4f
-      internalID: 1881358342
+      spriteID: c29ddc030390e444b9bab184b59909c1
+      internalID: -326224256
       vertices: []
       indices: 
       edges: []
@@ -314,14 +314,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PlayerMove_0: -602482653
-      PlayerMove_1: 593369360
-      PlayerMove_2: -278009877
-      PlayerMove_3: 656895374
-      PlayerMove_4: 1033251505
-      PlayerMove_5: -608874067
-      PlayerMove_6: -436118798
-      PlayerMove_7: 1881358342
+      PlayerJump_0: -574084985
+      PlayerJump_1: 1750397794
+      PlayerJump_2: -1393351548
+      PlayerJump_3: -83739815
+      PlayerJump_4: 2022151360
+      PlayerJump_5: -914068337
+      PlayerJump_6: -192426190
+      PlayerJump_7: -326224256
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -13,6 +13,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float runSpeed;
     [SerializeField] private float jumpForce;
 
+    [Header("Dash Info")]
+    [SerializeField] private float dashSpeed;
+    [SerializeField] private float dashDuration;
+    [SerializeField] private float dashTime;
+
+
     private float xInput;
     private bool isMoving;
     private bool isJumping;
@@ -35,8 +41,12 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        dashTime -= Time.deltaTime;
+
+
         AnimatorControllers();
         FlipController();
+
 
         checkInput();
 
@@ -57,16 +67,26 @@ public class PlayerController : MonoBehaviour
 
     private void checkInput()
     {
+        
         xInput = UnityEngine.Input.GetAxisRaw("Horizontal");
         if (isGrounded && Input.GetKeyDown(KeyCode.Space))
         {
             isJumping = true;
         }
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            dashTime = dashDuration;
+        }
     }
 
     private void Movement()
     {
-        rb.velocity = new Vector2(xInput * runSpeed, rb.velocity.y);
+        if (dashTime > 0) {
+            rb.velocity = new Vector2(facingDir * dashSpeed, 0);
+        }
+        else
+            rb.velocity = new Vector2(xInput * runSpeed, rb.velocity.y);
+        
         if(isJumping)
             Jump();
     }
@@ -87,6 +107,7 @@ public class PlayerController : MonoBehaviour
         Anim.SetFloat("yVelocity", rb.velocity.y);
         Anim.SetBool("isMoving", isMoving);
         Anim.SetBool("isGrounded", isGrounded);
+        Anim.SetBool("isDashing", dashTime > 0);
     }
 
     private void Flip()
