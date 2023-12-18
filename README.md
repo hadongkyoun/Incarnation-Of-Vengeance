@@ -5,7 +5,11 @@
 
 ## [Character]
 
-![sss2](https://github.com/hadongkyoun/Incarnation-Of-Vengeance/assets/72578757/02b08d96-3856-477d-a08a-22c1a484d951)
+### Idle
+![GitHubIdle](https://github.com/hadongkyoun/Incarnation-Of-Vengeance/assets/72578757/68a4aeff-a87e-4bfe-8b9d-a92e9ed8b30c)
+
+### Move
+![GitHubMove](https://github.com/hadongkyoun/Incarnation-Of-Vengeance/assets/72578757/3aa0136a-f988-4ecd-ac81-4304458273e4)
 
 ~시체였으나, 원인 모를 현상으로 분노로 가득 찬 채 눈을 뜬 전사~
 ~현재 그가 살아 있지 않은 언데드임을 강조하기 위해 디자인을 이렇게 구현하였음.~
