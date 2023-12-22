@@ -6,11 +6,13 @@
 ## [Character]
 
 ### Idle
-![PlayerIdle](https://github.com/hadongkyoun/Incarnation-Of-Vengeance/assets/72578757/03994f73-b3bd-4c7c-96bf-5105a5c7d879)
+
+![PlayerIdle](https://github.com/hadongkyoun/Incarnation-Of-Vengeance/assets/72578757/08bfb651-411a-48de-98a2-ec82b587b390)
 
 
 ### Move
-![PlayerMove2](https://github.com/hadongkyoun/Incarnation-Of-Vengeance/assets/72578757/44eb574a-eac1-4442-9107-6837ad9b5219)
+
+![PlayerMove2](https://github.com/hadongkyoun/Incarnation-Of-Vengeance/assets/72578757/0914ffa3-a547-421c-bc4c-040301708a33)
 
 
 ~시체였으나, 원인 모를 현상으로 분노로 가득 찬 채 눈을 뜬 전사~
