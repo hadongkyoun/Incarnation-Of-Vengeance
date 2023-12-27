@@ -69,20 +69,35 @@ public class PlayerController : MonoBehaviour
     {
         
         xInput = UnityEngine.Input.GetAxisRaw("Horizontal");
-        if (isGrounded && Input.GetKeyDown(KeyCode.Space))
+
+        //Ground에서 가능한 움직임
+        if (isGrounded)
         {
-            isJumping = true;
-        }
-        if (Input.GetKeyDown(KeyCode.LeftShift))
-        {
-            dashTime = dashDuration;
+            // 점프 ( 대쉬 도중에 점프 불가 )
+
+            if (dashTime < 0 && Input.GetKeyDown(KeyCode.Space))
+            {
+                isJumping = true;
+            }
+            // 대쉬
+            if (Input.GetKeyDown(KeyCode.LeftShift))
+            {
+                dashTime = dashDuration;
+            }
         }
     }
 
     private void Movement()
     {
-        if (dashTime > 0) {
-            rb.velocity = new Vector2(facingDir * dashSpeed, 0);
+        if (dashTime > 0 ) {
+            if(dashTime > 0.4)
+                rb.velocity = new Vector2(facingDir * dashSpeed*1.2f, rb.velocity.y);
+            else  if (dashTime > 0.25)
+                rb.velocity = new Vector2(facingDir * dashSpeed, rb.velocity.y);
+            else if (dashTime > 0.15)
+                rb.velocity = new Vector2(facingDir * dashSpeed / 2.5f, rb.velocity.y);
+            else
+                rb.velocity = new Vector2(facingDir * dashSpeed / 4.0f, rb.velocity.y);
         }
         else
             rb.velocity = new Vector2(xInput * runSpeed, rb.velocity.y);
@@ -128,8 +143,8 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void OnDrawGizmos()
-    {
-        Gizmos.DrawLine(transform.position, new Vector3(transform.position.x, transform.position.y - groundCheckDistance));
-    }
+    //private void OnDrawGizmos()
+    //{
+    //    Gizmos.DrawLine(transform.position, new Vector3(transform.position.x, transform.position.y - groundCheckDistance));
+    //}
 }

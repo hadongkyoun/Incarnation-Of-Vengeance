@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 050ae8b9df4942b47971f2f9bc42694a
+guid: 353e4cae2770b6c4eac06dbfb4c73769
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,12 +136,96 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlayerDash_0
+      name: PlayerRoll_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 110
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51d591d1f8f53248bafaaa02609fe72
+      internalID: -1801830987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerRoll_1
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 90
+        width: 110
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac1e99246c59dc4bad0a048d35a8f3f
+      internalID: -80085878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerRoll_2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 90
+        width: 110
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32885de46801fce4eb876052e3d9b9fe
+      internalID: 562962665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerRoll_3
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 90
+        width: 110
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390e842a8ac3f38488bb1292a98cfbcc
+      internalID: -1816189947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerRoll_4
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 70
+        width: 110
         height: 90
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -150,19 +234,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53fa234bdc2b4a844880ac49bb356eff
-      internalID: 1595938579
+      spriteID: f1679f55829fbd74ea2e0d113058da0b
+      internalID: -1115906786
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerDash_1
+      name: PlayerRoll_5
       rect:
         serializedVersion: 2
-        x: 70
+        x: 110
         y: 0
-        width: 70
+        width: 110
         height: 90
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -171,19 +255,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75d48f0add8f7d74a943d0287cf7f93e
-      internalID: -171440621
+      spriteID: 203d08fc00454b040b834b57a1a388f7
+      internalID: -1509288352
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerDash_2
+      name: PlayerRoll_6
       rect:
         serializedVersion: 2
-        x: 140
+        x: 220
         y: 0
-        width: 70
+        width: 110
         height: 90
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -192,19 +276,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b4362474f5904349a3e16a5fcefe2a0
-      internalID: 961083037
+      spriteID: 237be03adc6620c4a8281a7bbc19dc49
+      internalID: 907915030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerDash_3
+      name: PlayerRoll_7
       rect:
         serializedVersion: 2
-        x: 210
+        x: 330
         y: 0
-        width: 70
+        width: 110
         height: 90
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -213,8 +297,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4340a2d5c1259a46ab5bfe6eb3722af
-      internalID: 883907523
+      spriteID: c52f734e48eb6d84ca3c17dc7a2d5f4a
+      internalID: 1756541939
       vertices: []
       indices: 
       edges: []
@@ -230,10 +314,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PlayerDash_0: 1595938579
-      PlayerDash_1: -171440621
-      PlayerDash_2: 961083037
-      PlayerDash_3: 883907523
+      PlayerRoll_0: -1801830987
+      PlayerRoll_1: -80085878
+      PlayerRoll_2: 562962665
+      PlayerRoll_3: -1816189947
+      PlayerRoll_4: -1115906786
+      PlayerRoll_5: -1509288352
+      PlayerRoll_6: 907915030
+      PlayerRoll_7: 1756541939
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
